@@ -2,6 +2,20 @@
 
 <h2>Description</h2>
 <p>A complete record management system for badgers and zookeepers, written in x86-64 Assembly. Implements static memory allocation, array-based records, custom search, display, add, and delete functions — all without dynamic memory. </p>
+<br />
+
+<p>This project was undertaken to build a deep, foundational understanding of how software interacts with hardware at the most fundamental level. By bypassing modern programming languages and their abstractions, I was forced to manage memory, control the CPU, and handle data structures manually, which provides invaluable insight into system performance, efficiency, and security. </p>
+
+<h2>Goals and Purpose</h2>
+
+
+<ul>
+<li><b>Master Low-Level Operations: </b>The primary goal was to implement a complete application using only x86-64 assembly instructions, demonstrating proficiency in core computing concepts.</li>
+<li><b>Manual Memory Management</b>To design and manage a data storage system within a fixed memory block (.bss section), using pointer arithmetic to navigate records without relying on any operating system or library functions for memory allocation.</li>
+<li><b>Build from Scratch: </b>To create all core application logic—including user input/output, string comparison, and data validation—from the ground up.</li>
+</ul>
+<br />
+
 
 <h2>Features</h2>
 
@@ -14,6 +28,7 @@
 <li>Record deletion with memory shift for efficiency</li>
 <li>Display functions with calculated values</li>
 </ul>
+<br />
 
 <h2>Data Structure Overview</h2>
 
