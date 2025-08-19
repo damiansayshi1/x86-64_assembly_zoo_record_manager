@@ -91,14 +91,14 @@ Deleting a staff record:  <br/>
 <h2>How to run:</h2>
 <p>This program was written for a 64-bit Linux environment.</p>
 <ol>
-<li>Ensure you have `nasm` (The Netwide Assembler) and `ld` (the linker) installed <i>(bash
-    sudo apt-get update
+<li>Ensure you have `nasm` (The Netwide Assembler) and `ld` (the linker) installed <i>(bash <br />
+    sudo apt-get update <br />
     sudo apt-get install nasm).</i></li>
-<li>Assemble the code <i>(bash
+<li>Assemble the code <i>(bash <br />
     nasm -f elf64 -o zoo.o badger_zoo_final.asm).</i></li>
-<li>Link the object file <i>(bash
+<li>Link the object file <i>(bash <br />
     ld -o zoo zoo.o).</i></li>
-<li>Run the executable <i>(bash
+<li>Run the executable <i>(bash <br />
     ./zoo)</i>.</li>
 
 </p>
