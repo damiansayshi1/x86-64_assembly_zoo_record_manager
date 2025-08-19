@@ -86,5 +86,19 @@ Deleting a staff record:  <br/>
 <img src="https://i.imgur.com/ObSd08T.png" height="80%" width="80%" alt="Assembly_Program_Runtime"/>
 <br />
 <br />
+<br />
+<br />
+<h2>How to run:</h2>
+<p>This program was written for a 64-bit Linux environment.</p>
+<ol>
+<li>Ensure you have `nasm` (The Netwide Assembler) and `ld` (the linker) installed <i>(bash
+    sudo apt-get update
+    sudo apt-get install nasm).</i></li>
+<li>Assemble the code <i>(bash
+    nasm -f elf64 -o zoo.o badger_zoo_final.asm).</i></li>
+<li>Link the object file <i>(bash
+    ld -o zoo zoo.o).</i></li>
+<li>Run the executable <i>(bash
+    ./zoo)</i>.</li>
 
 </p>
